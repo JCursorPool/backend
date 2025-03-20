@@ -98,7 +98,7 @@ spring:
 spring.data:
   redis:
     # 地址
-    host: localhost
+    host: 101.132.112.31
     # 端口，默认为6379
     port: 6379
     # 数据库索引
@@ -136,16 +136,16 @@ redisson:
 --- # mail 邮件发送
 mail:
   enabled: false
-  host: smtp.163.com
+  host: smtp.88.com
   port: 465
   # 是否需要用户名密码验证
   auth: true
   # 发送方，遵循RFC-822标准
-  from: xxx@163.com
+  from: ddcat666@88.com
   # 用户名（注意：如果使用foxmail邮箱，此处user为qq号）
-  user: xxx@163.com
+  user: ddcat666@88.com
   # 密码（注意，某些邮箱需要为SMTP服务单独设置密码，详情查看相关帮助）
-  pass: xxxxxxxxxx
+  pass: jhcJYBRDBXFTMrPI
   # 使用 STARTTLS安全连接，STARTTLS是对纯文本通信协议的扩展。
   starttlsEnable: true
   # 使用SSL安全连接
